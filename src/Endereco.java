@@ -4,7 +4,6 @@ public class Endereco {
     private int    numeroDaCasa;
     private String bairro;
 
-    //Getters
     public String getNomeRua() {
         return nomeRua;
     }
@@ -16,7 +15,6 @@ public class Endereco {
         return bairro;
     }
 
-    //Setters
     public void setNomeRua(String nomeRua) {
         this.nomeRua = nomeRua;
     }

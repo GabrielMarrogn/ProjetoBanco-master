@@ -5,7 +5,6 @@ public class Cliente  {
     private Endereco endereco;
     private Agencia dadosAgencia;
 
-    //Getters
     public String getNome() {
         return nome;
     }
@@ -22,7 +21,6 @@ public class Cliente  {
         return dadosAgencia;
     }
 
-    //Setters
     public void setNome(String nome) {
         this.nome = nome;
     }

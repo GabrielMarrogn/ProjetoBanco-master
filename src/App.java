@@ -46,6 +46,8 @@ public class App {
 
         int operacao = 0;
 
+        
+        //Um loop while usado para criar a interface que irar aparecer no termial
         while (operacao != 6) {
             System.out.println("\n" + "Por favor selecione sua ação" + "\n");
             System.out.println("1- Para checar Saldo");

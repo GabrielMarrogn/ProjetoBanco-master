@@ -4,7 +4,6 @@ public class Agencia extends DadosAgencia {
     private Double saldo;
     private Cliente titularConta;
 
-    //Getters
     public int getNumeroConta() {
         return numeroConta;
     }
@@ -15,7 +14,6 @@ public class Agencia extends DadosAgencia {
         return saldo;
     }
 
-    //Setters
     public void setNumeroConta(int numeroConta) {
         this.numeroConta = numeroConta;
     }
